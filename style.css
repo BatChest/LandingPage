@@ -33,3 +33,53 @@ body {
   list-style-type: none;
   text-decoration: none;
 }
+
+.hero {
+  background: #1f2937;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+}
+
+.leftside {
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+
+.main_text {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+  max-width: 400px;
+  line-height: 55px;
+}
+
+.second_text {
+  font-size: 18px;
+  color: #E5E7Eb;
+  text-wrap: wrap;
+  max-width: 500px;
+  margin: 10px 0;
+}
+
+.signup_button button {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #E5E7Eb;
+  background: #3882F6;
+  border: none;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 8px 35px;
+}
+
+img {
+  width: 550px;
+  height: 200px;
+  margin-right: 200px;
+  padding-bottom: 50px;
+}
